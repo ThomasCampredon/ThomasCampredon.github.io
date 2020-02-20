@@ -17,6 +17,11 @@ h2{
 p{
 	
 	font-size: 1vw;
+	line-height: 2em;
+}
+
+.enLigne li{
+	display:inline;
 }
 
 #containeurPricipale{
@@ -39,7 +44,7 @@ p{
 #carte{
 	width: 80%;
 	margin-right: auto;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(54, 54, 54, 0.5);
 	margin-left: auto;
 	border-radius: 15px;
 	padding: 1%;
