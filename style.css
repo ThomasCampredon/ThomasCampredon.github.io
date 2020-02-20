@@ -1,6 +1,6 @@
 body{
-	background-image: url("./image/espace.jpg");
-	background-repeat: no-repeat;
+	background-image: url("./image/repSpace.png");
+	background-repeat: repeat-x;
 	color:white;
 	font-family: "Gill Sans", sans-serif;
 }
@@ -11,10 +11,11 @@ h1{
 
 h2{
 	font-size: 2vw;
+	margin-bottom: 3%;
 }
 
 p{
-	font-weight: bold;
+	
 	font-size: 1vw;
 }
 
@@ -37,11 +38,11 @@ p{
 
 #carte{
 	width: 80%;
-	background-color: rgba(0, 0, 0, 0.7);
 	margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.7);
 	margin-left: auto;
 	border-radius: 15px;
-
+	padding: 1%;
 }
 
 #photo{
@@ -49,4 +50,37 @@ p{
 	margin-left: auto;
 	border-radius: 100%;
 	width: 15%;
+}
+
+.justifie{
+	text-align: justify;
+	padding: 0 3% 0 3%;
+}
+
+/* animation */
+
+@keyframes defile {
+	  0% { 
+	  	background-position-x:   0; 
+	  }
+	100% { 
+		background-position-x: 100vw; 
+	}
+}
+body {
+	-webkit-background-size: cover;
+	animation: defile 50s linear infinite;
+}	
+
+
+/* responsive */
+@media only screen and (max-width: 450px) {
+	#structure{
+		width: 95%;
+		background-color: transparent;
+	}
+
+	#carte{
+		width: 100%;
+	}
 }
