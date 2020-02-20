@@ -1,0 +1,52 @@
+body{
+	background-image: url("./image/espace.jpg");
+	background-repeat: no-repeat;
+	color:white;
+	font-family: "Gill Sans", sans-serif;
+}
+
+h1{
+	font-size: 3vw;
+}
+
+h2{
+	font-size: 2vw;
+}
+
+p{
+	font-weight: bold;
+	font-size: 1vw;
+}
+
+#containeurPricipale{
+	
+}
+
+#structure{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 100vh;
+}
+
+#accueil{
+	padding-top: 2%;
+}
+
+#carte{
+	width: 80%;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+
+}
+
+#photo{
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 100%;
+	width: 15%;
+}
