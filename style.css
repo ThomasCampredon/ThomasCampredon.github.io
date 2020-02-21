@@ -20,8 +20,25 @@ p{
 	line-height: 2em;
 }
 
+#lienReseau{
+	margin-bottom: 3%;
+}
+
 .enLigne li{
 	display:inline;
+	padding: 0 10px 0 10px;
+}
+
+.icon{
+	width:8%;
+	height:auto;
+}
+
+.icon:hover{
+	width:11%;
+	height:auto;
+	border-radius:100%;
+	box-shadow: 0px 0px 50px #fff;
 }
 
 #containeurPricipale{
