@@ -26,11 +26,11 @@ p{
 
 .enLigne li{
 	display:inline;
-	padding: 0 10px 0 10px;
+	padding: 0 13px 0 13px;
 }
 
 .icon{
-	width:8%;
+	width:10%;
 	height:auto;
 }
 
@@ -87,17 +87,18 @@ p{
 }
 
 .boutonInfo a {
-	font-size:20px;
+	font-size:24px;
 	position:relative;
 	display:inline-block;
-	padding: 25px;
+	padding: 33px;
 	margin:30px 0;
 	color:#EEEBEB;
 	text-decoration: none;
-	background:grey;
+	background-color: rgba(54, 54, 54, 0.5);
 	overflow:hidden;
-	box-shadow: 20px 0px 10px 0 #402A2A;
+	box-shadow: 20px 0px 10px -4px purple;
 	animation: flotter 4s linear infinite;
+	border-radius: 8px 0 0 8px;
 }
 
 @keyframes flotter{
@@ -106,7 +107,7 @@ p{
 		margin-bottom:3%;
 	}
 	50%{
-		margin-top:2%;
+		margin-top:2.5%;
 		margin-bottom:0%;
 	}
 	100%{
@@ -134,7 +135,7 @@ p{
 	top:0;
 	left:100%;
 	width:100%;
-	height:3px;
+	height:4px;
 	background:linear-gradient(-90deg, transparent, purple);
 	animation: animate1 3s linear infinite;
 }
@@ -152,7 +153,7 @@ p{
 	bottom:0;
 	left:100%;
 	width:100%;
-	height:3px;
+	height:4px;
 	background:linear-gradient(-90deg, transparent, purple);
 	animation: animate1 3s linear infinite;
 }
