@@ -34,6 +34,10 @@ p{
 	height:auto;
 }
 
+#gitlogo{
+	filter : hue-rotate(30deg);
+}
+
 #CV{
 	font-size: 40px;
 	font-style: bold;
