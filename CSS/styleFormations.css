@@ -1,7 +1,7 @@
-html { 
+/*html { 
 	overflow-y: hidden; 
 } 
-
+*/
 body{
   	color:white;
 	font-family: "Gill Sans", sans-serif;
@@ -41,7 +41,6 @@ p{
 	margin:0px 0px 0px 125px;
 	padding-top:2%;
 	margin-bottom:2.5%;
-
 }
 
 #listeFormation{
@@ -58,10 +57,10 @@ p{
 	filter:url(#vague);
 }
 
+
 .infoFormation{
 	padding:10px;
 	position:relative;
-	z-index: 2px;
 }
 
 .details{

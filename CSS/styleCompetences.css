@@ -1,6 +1,6 @@
-html { 
+/*html { 
 	overflow-y: hidden; 
-} 
+} */
 
 body{
 	/*background-image: url("../image/repSpace.png");*/
@@ -10,11 +10,14 @@ body{
 
 h1{
 	font-size: 34px;
+	font-style:bold;
 }
 
-h2{
+h2{ 
 	font-size: 24px;
 	margin-bottom: 3%;
+	text-shadow:  6px 6px 12px black, 
+             	-6px -6px 12px white;
 }
 
 p{
@@ -53,7 +56,39 @@ p{
 }
 
 .typeCompetence{
+	text-align: center;
+}
 
+.comp{
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: center;
+	space-between:space-around;
+	align-items:baseline;
+	margin-bottom: 4%;
+}
+
+.logo{
+	width:10%;
+	height:auto;
+	border-radius: 50%;
+	background-color: rgba(150,150,150,0.9);
+	box-shadow: inset 6px 6px 12px white;
+	padding:1.5%;
+	margin: 0 4% 4% 4%;
+}
+
+#java{
+	width:8%;
+}
+
+.logo img{
+	width:100%;
+	height:auto;
 }
 
 /* bouton accueil */
