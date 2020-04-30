@@ -80,6 +80,7 @@ p{
 	box-shadow: inset 6px 6px 12px white;
 	padding:1.5%;
 	margin: 0 4% 4% 4%;
+	transition:0.5s;
 }
 
 #java{
@@ -89,6 +90,20 @@ p{
 .logo img{
 	width:100%;
 	height:auto;
+}
+
+
+/* niveau des compétences */
+.ok:hover{
+	background-color:rgba(10,200,10,0.9);
+}
+
+.inter:hover{
+	background-color:rgba(255,153,50,0.9);
+}
+
+.non:hover{
+	background-color:rgba(255,0,0,0.9);
 }
 
 /* bouton accueil */
