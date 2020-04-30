@@ -68,18 +68,19 @@ svg{
 
 #listeFormation .formation:hover{
 	filter:none;
-	animation: ombre 10s infinite;
+	border:none;
+	animation: ombre 7s infinite;
 }
 
 @keyframes ombre{
 	0%{
-		box-shadow: 20px 0px 10px -4px white;
+		box-shadow: 20px 0px 10px -4px white, -20px 0px 10px -4px white;
 	}
 	50%{
-		box-shadow: -20px 0px 10px -4px white;
+		box-shadow: 0px 20px 10px -4px white, 0px -20px 10px -4px white;
 	}
 	100%{
-		box-shadow: 20px 0px 10px -4px white;
+		box-shadow: 20px 0px 10px -4px white, -20px 0px 10px -4px white;
 	}
 }
 
