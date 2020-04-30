@@ -94,7 +94,7 @@ p{
 
 /*partie boutons flottants*/
 .boutonInfo{
-	margin-top: 3%;
+	margin-top: 2%;
 	display: flex;
 	justify-content: center;
 	align-items:center;
@@ -112,7 +112,7 @@ p{
 	background-color: rgba(54, 54, 54, 0.5);
 	overflow:hidden;
 	box-shadow: 20px 0px 10px -4px purple;
-	animation: flotter 4.5s linear infinite;
+	animation: flotter 5s linear infinite;
 	border-radius: 8px 0 0 8px;
 }
 

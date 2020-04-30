@@ -3,7 +3,6 @@
 } */
 
 body{
-	/*background-image: url("../image/repSpace.png");*/
 	color:white;
 	font-family: "Gill Sans", sans-serif;
 }
@@ -75,7 +74,7 @@ p{
 .logo{
 	width:10%;
 	height:auto;
-	border-radius: 50%;
+	border-radius: 1000px;
 	background-color: rgba(150,150,150,0.9);
 	box-shadow: inset 6px 6px 12px white;
 	padding:1.5%;
@@ -187,12 +186,28 @@ p{
 
 /* responsive */
 @media only screen and (max-width: 450px) {
-	#structure{
-		width: 95%;
-		background-color: transparent;
+	.clear{
+		clear:both;
 	}
 
-	#carte{
-		width: 100%;
+
+	#titre{
+		margin:0 0 8% 0;
+	}
+
+	#accueil a {
+		font-size:20px;
+		padding: 15px;
+		animation: flotter 7s linear infinite;
+	}
+
+	.logo{
+		width:18%;
+		padding:1.5%;
+		margin: 0 4% 4% 4%;
+	}
+
+	#java{
+		width:13%;
 	}
 }
