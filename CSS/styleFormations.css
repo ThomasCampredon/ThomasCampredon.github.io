@@ -64,7 +64,7 @@ p{
 /* application du filtre uniquement pour les pc */
 @media only screen and (min-width: 720px) {
 	#listeFormation .formation{
-		filter:url(#vague);
+		/*filter:url(#vague);*/
 	}
 }
 
